@@ -16,28 +16,23 @@ module.exports = function (app) {
         getTodos(res);
     });
 
-    //test params
-    // app.get("/:id",function(req, res){
-    //     res.json(req.params.id);
-    // })
-
     // /api/todo/123456
-    app.get("/api/todo/:id", function (req, res){
+    app.get("/api/todo/:id", function (req, res) {
         Todos.findById({
             _id: req.params.id
         }
-        , function (err, todo) {
-            if (err) {
-                res.send(err + req);
-                console.log(err);
-            } else {
-                res.json(todo);
-            }
-        })
+            , function (err, todo) {
+                if (err) {
+                    res.send(err + req);
+                    console.log(err);
+                } else {
+                    res.json(todo);
+                }
+            })
     });
 
     /**
-     * Create
+     * Create a Todo
      */
     app.post("/api/todo", function (req, res) {
         var todo = {

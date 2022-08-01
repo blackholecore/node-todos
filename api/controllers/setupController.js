@@ -1,7 +1,7 @@
 var Todos = require("../models/todoModel");
 
-module.exports = function(app){
-    app.get("/api/setupTodos", function(req, res){
+module.exports = function (app) {
+    app.get("/api/setupTodos", function (req, res) {
 
         //Setup seed data
         var seedTodos = [
@@ -19,7 +19,7 @@ module.exports = function(app){
             }
         ];
 
-        Todos.create(seedTodos, function(err, results){
+        Todos.create(seedTodos, function (err, results) {
             res.send(results);
         })
     });

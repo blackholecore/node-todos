@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "62e48c86b16aefc4292d220d"
+  },
+  "text": "Học Node.js",
+  "isDone": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e48c86b16aefc4292d220e"
+  },
+  "text": "Học Angular.js và ejs",
+  "isDone": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e48c86b16aefc4292d220f"
+  },
+  "text": "Viết một ứng dụng hoàn chỉnh",
+  "isDone": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e4f6a98458d2a4cbcde03b"
+  },
+  "text": "Tao lạy mày",
+  "isDone": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e4f6ac8458d2a4cbcde03e"
+  },
+  "text": "Tao lạy mày",
+  "isDone": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e4f7b0053ec6d9944bb793"
+  },
+  "text": "Ok mày! 2",
+  "isDone": false,
+  "__v": 0
+}]

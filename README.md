@@ -5,3 +5,7 @@
 - MongoDB
 - EJS
 - AngularJS
+
+# Installing
+
+- npm i
